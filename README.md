@@ -14,4 +14,3 @@ If you're reading this, you should definitely consider doing these challenges to
 **My Stats:** &nbsp;![](https://img.shields.io/badge/day%20📅-2-blue)&nbsp;	![](https://img.shields.io/badge/stars%20⭐-3-yellow)  
 
 - [ ] automate using [AoC-Badges](https://github.com/J0B10/aoc-badges-action)     
-- [ ] Accidentally did this in the test branch. Merge with main & delete this later.
