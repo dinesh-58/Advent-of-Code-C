@@ -1,6 +1,7 @@
 name: AoC-badges
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '**.c'
