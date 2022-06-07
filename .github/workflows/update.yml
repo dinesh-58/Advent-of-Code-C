@@ -1,0 +1,37 @@
+name: AoC-badges
+
+on:
+  push:
+    paths:
+      - '**.c'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ssh-key: ${{ secrets.SSH_KEY }}
+      - uses: J0B10/aoc-badges-action@v3.0.0
+        with:
+          userid: 2144684
+          session: ${{ secrets.AOC_SESSION }}
+
+          #         Optional inputs:
+#         
+#         year: 2021                                                                                     
+# The year for which stats should be retrieved
+#         leaderboard: 'https://adventofcode.com/2020/leaderboard/private/view/00000.json'               
+# The url of the leaderboard from witch the data is fetched. Typically your private leaderboard.
+#         file: 'README.md'                                                                              
+# The file that contains the badges
+#         dayRegex: '(?<=https:\/\/img\.shields\.io\/badge\/day%20📅-)[0-9]+(?=-blue)'                   
+# Regular expression that finds the content of the day badge iun your file.
+#         starsRegex: '(?<=https:\/\/img\.shields\.io\/badge\/stars%20⭐-)[0-9]+(?=-yellow)'             
+# Regular expression that finds the content of the stars badge iun your file.
+#         daysCompletedRegex: '(?<=https:\/\/img\.shields\.io\/badge\/days%20completed-)[0-9]+(?=-red)'  
+# Regular expression that finds the content of the days completed badge iun your file.
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update badges
+          file_pattern: README.md

@@ -11,6 +11,6 @@ The inputs for these challenges are unique for each user & the site will only sh
 ---
 If you're reading this, you should definitely consider doing these challenges too. Looking at others' implementations after successfully finishing  yours can also help you learn. All the best.
 
-**My Stats:** &nbsp;![](https://img.shields.io/badge/day%20📅-2-blue)&nbsp;	![](https://img.shields.io/badge/stars%20⭐-3-yellow)  
+**My Stats:** &nbsp;![](https://img.shields.io/badge/day%20📅-2-blue)&nbsp;	![](https://img.shields.io/badge/stars%20⭐-3-yellow) &nbsp;![](https://img.shields.io/badge/days%20completed-1-red)     
 
 - [ ] automate using [AoC-Badges](https://github.com/J0B10/aoc-badges-action)     
