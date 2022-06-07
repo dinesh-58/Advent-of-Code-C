@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          ssh-key: ${{ secrets.SSH_KEY }}
       - uses: J0B10/aoc-badges-action@v3.0.0
         with:
           userid: 2144684
