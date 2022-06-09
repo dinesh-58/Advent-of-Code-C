@@ -13,4 +13,4 @@ If you're reading this, you should definitely consider doing these challenges to
 
 **My Stats:** &nbsp;![](https://img.shields.io/badge/stars%20⭐-3-yellow) &nbsp;![](https://img.shields.io/badge/days%20completed-1-red)     
 
-Automateically updated using [AoC-Badges](https://github.com/J0B10/aoc-badges-action)     
+Automatically updated using [AoC-Badges](https://github.com/J0B10/aoc-badges-action)     
